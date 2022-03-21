@@ -47,9 +47,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import sphinx_theme_pd
-html_theme = 'sphinx_theme_pd'
-html_theme_path = [sphinx_theme_pd.get_html_theme_path()]
+
+html_theme = 'traditional'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
